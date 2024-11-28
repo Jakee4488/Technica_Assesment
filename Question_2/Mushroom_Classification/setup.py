@@ -1,12 +1,12 @@
 import setuptools
 
 with open("README.md", "r", encoding="utf-8") as f:
-    long_description = f.read()
+    long_description = " Mushroom classification using MLOPS"
 
 
-__version__ = "0.0.01"
+__version__ = "0.0.0"
 
-REPO_NAME = "Mushroom_Prediction_MLOPS_project"
+REPO_NAME = "Technical_Assesment"
 AUTHOR_USER_NAME = "Jakee4488"
 SRC_REPO = "Mushroom_Classification_src"
 AUTHOR_EMAIL = "jacobbinu4488code@gmail.com"

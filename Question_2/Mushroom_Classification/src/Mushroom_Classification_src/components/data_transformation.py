@@ -55,13 +55,6 @@ class DataTransformation:
                     features_train_transformed.shape, train_pca.shape)
         return train_pca, test_pca
 
-    def visualize_pca(self, train_pca):
-        """Visualize PCA-transformed data."""
-        plt.scatter(train_pca[:, 0], train_pca[:, 1], alpha=0.2)
-        plt.title("PCA-transformed Data")
-        plt.xlabel("PCA Component 1")
-        plt.ylabel("PCA Component 2")
-        plt.show()
 
     def save_transformed_data(self, train_pca, test_pca, target_train, target_test):
         """Save PCA-transformed data and targets to CSV files."""
@@ -96,9 +89,7 @@ class DataTransformation:
         # PCA Transformation
         train_pca, test_pca = self.apply_pca(features_train_transformed, features_test_transformed)
 
-        # Visualize PCA-transformed data
-        self.visualize_pca(train_pca)
-
+      
         # Save the transformed data
         self.save_transformed_data(train_pca, test_pca, target_train, target_test)
 

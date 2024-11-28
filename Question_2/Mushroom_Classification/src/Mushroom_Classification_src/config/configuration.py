@@ -100,7 +100,7 @@ class ConfigurationManager:
             all_params=params,
             metric_file_name = config.metric_file_name,
             target_column = schema.name,
-            mlflow_uri="https://dagshub.com/Jakee4488/GDP_Prediction_ML_project.mlflow",
+            mlflow_uri="https://dagshub.com/Jakee4488/Technical_Assesment.mlflow",
            
         )
 

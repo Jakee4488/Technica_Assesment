@@ -10,7 +10,7 @@ from Mushroom_Classification_src.constants import *
 from Mushroom_Classification_src.entity.config_entity import ModelEvaluationConfig
 from Mushroom_Classification_src.utils.common import read_yaml, create_directories ,save_json
 import dagshub
-dagshub.init(repo_owner='Jakee4488', repo_name='GDP_Prediction_ML_project', mlflow=True)
+dagshub.init(repo_owner='Jakee4488', repo_name='Technical_Assesment', mlflow=True)
 
 class ModelEvaluation:
     def __init__(self, config: ModelEvaluationConfig):
