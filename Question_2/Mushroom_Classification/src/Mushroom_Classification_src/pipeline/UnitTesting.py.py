@@ -1,1 +1,1 @@
-from unit_tests import data_injestion_test, data_validation_test, data_transformation_test, model_training_test, model_evaluation_test
+from unit_tests import data_injestion_test, data_validation_test, data_transformation_test, model_evalution_test, model_trainer_test
